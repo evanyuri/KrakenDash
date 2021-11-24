@@ -1,0 +1,100 @@
+body {
+    padding: 1.0em;
+    font-size: 1.1em;
+    margin: auto;
+    letter-spacing: 0.5px; 
+    font-family: Arial;
+    background-color: rgb(51, 51, 51);
+  }
+  p {
+    margin: 0.5em; /* between paragraphs */
+    }
+  H1 {
+    text-align: left;
+    padding: 1.0em;
+    line-height: 0.5em;
+    color: whitesmoke;
+  }
+  H2 {
+    font-size: 0.7em;
+    text-align: center;
+    padding: 0;
+    line-height: 1.0em;
+    color:rgb(91, 106, 236);
+  }
+  h3 {
+    font-size: 1.0em;
+    text-align: left;
+    padding: 0;
+    line-height: 1.0em;
+  }
+  
+  
+  #container {
+      color: white;
+    padding: 1em;
+    border-radius: 20px;
+  }
+  
+  div {
+      color: whitesmoke;
+    line-height: 1em;
+  }
+  
+  .column1 {
+    float: left;
+    width: 33%;
+  }
+  .column2 {
+    float: left;
+    width: 43%;
+  }
+  .column3 {
+    float: left;
+    width: 22%;
+  }
+  .Select-control {
+    background-color: rgb(49, 49, 49) !important;
+  }
+  
+  .Select-menu-outer {
+    background-color: rgb(49, 49, 49);
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+    height: 20px;
+    border: 2px;
+    border-radius: 20px;
+    display: table;
+    width: 100%;
+    padding-left:  10px;
+    padding-right: -20px;
+    background: linear-gradient(-45deg, rgb(153, 2, 2), rgb(219, 26, 0));
+  }
+  
+  
+  input {
+    width: 100%;
+  }
+  
+  @media (min-width: 900px) {
+    body {
+      width: 80%;
+      margin-top: -20px;
+    }
+  
+    #container {
+      opacity: 0.9;
+    }
+  
+    input {
+      display: inline-block;
+      width: 40%;
+    }
+  
+    div {
+      line-height: 1.0em;
+    }
+  }
+  
